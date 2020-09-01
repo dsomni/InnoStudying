@@ -1,0 +1,55 @@
+1. Rhetoric vs Logic.
+
+Rhetoric is based on emotion and strange claims. EXAMPLE: Jewish conspiracy made our families poor and stole our money, they should pay for it with blood! (exploiting anger of the people + claims of conspiracy)
+
+Logic is based on reason and... Logic? EXAMPLE: CO2 is a greenhouse gas that keeps the heat in the atmosphere, leading to planet heating up, therefore we need to lower CO2 emissions. (Basing on a common known fact we come to a conclusion through a premise based on it. CO2 causes heat, therefore less CO2 for less heat)
+
+2. Claim vs Argument.
+
+Claim is a statement we are trying to prove/disprove. EXAMPLE: High car usage causes global warming.
+
+Argument is a set of logical reasons and/or evidence that support/oppose a claim. EXAMPLE: As car engines produce a lot of greenhouse gases, which trap heat in the atmosphere, the more cars we use, the more car engines are working, the faster is global warming.
+
+3. Argument and it's components.
+
+Arguments is made of CONCLUSIONS and PREMISES.
+
+Premises - components of an argument that form it.
+Conclusion - the result of the premises.
+
+EXAMPLE: As car engines produce a lot of greenhouse gases, which trap heat in the atmosphere, the more cars we use, the more car engines are working. Therefore higher car usage causes faster global warming.
+
+Premise1) Car engines produce high amounts of greenhouse gases.
+Premise2)Greenhouse gases trap heat in the atmosphere
+Premise3) Amount of engines is higher when amount of cars is higher
+
+Conclusion) More cars cause more global warming.
+
+4. Extended argument.
+
+Extended argument is a combination of several sub-arguments
+
+EXAMPLE: Bobik is a dog. All dogs are mammals, so Bobik is a mammal. All mammals are hot-blooded, therefore Bobik, as a mammal, is hot-blooded.
+
+Subargument A) Bobik is a dog. All dogs are mammals, therefore Bobik is a mammal.
+Subargument B) All mammals are hot-blooded, therefore Bobik is hot-blooded.
+
+Both sub-arguments have conclusions after 'therefore'.
+
+Thx to @relisqu for this one
+
+5. Identifying, Reconstructing and Assessing an argument.
+
+We already reconstructed an argument in part 3. Arguments and it's components.
+Identifying an argument is finding out if it is an argument at all eg finding it's conclusion and supporting premises.
+
+Now assessing an argument and Problems with it.
+
+6. Problems.
+6.1 Lexical Ambiguity: One word may have several definitions. EXAMPLE: He is looking for a match. Match may mean: small stick for making fire, a soulmate, or a game with other player.
+6.2 Syntactic Ambiguity: The focus of a sentence is ambiguous. EXAMPLE: Woman admitted to robbery in Moscow. Which can mean: A) She robbed someone in Moscow and admitted it. B) She robbed someone somewhere, but told it to authorities in Moscow.
+6.3 Vagueness: Several definitions, but taken to an extreme? EXAMPLE: "I value liberal values." Liberal values is a VERY broad term which may mean A LOT of definitions. This can be fixed by phrasing it as "I value liberal values proposed in the books of Dave Dork", which narrows it to one of a billion definitions of liberal values. This is how I understood it. May need correction.
+6.4 Rhetorical Question: Turning a statement/argument into a question distracts the listener and can allow you to push ideas without relying on logic. EXAMPLE: "Do you really believe we can allow homosexuals to ruin our families?" Which can be rephrased into a statement: "Homosexuals ruin our families". Turning a statement into a question can sway audience.
+6.5 Irony: I believe we all know what irony is. The lecture just states that the usage of irony is just as bad as the usage of rhetorical questions for the same reason. It distracts listener from the point and allows you to force ideas without valid logical support.
+6.6 Implicitly relative sentences: Feels like a form of ambiguity, but a narrow one. EXAMPLE: My uncle is taller than average. This sentence provides very limited information, as we can also think that my uncle is 3 meters tall, or 2 meters tall. Saying that my uncle is between 1.8 and 1.9 meters tall can fix it.
+6.7 Quantifiers: words such as ‘all, some, few, nearly all, lots of, most , always’. EXAMPLE: A lot of women are depressed. 'A lot' may mean 5%. It can also mean 95%. Replacing 'A lot' with 'Approximately one fifth' can fix the sentence. Basically, avoid using quantifiers, as they are not precise.
