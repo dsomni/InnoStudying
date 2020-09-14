@@ -2,21 +2,16 @@
 
 int main(){
     FILE *fi, *fo;
-    char iname[256], oname[256], str[256];
-    printf("Write name of input file: ");
-    gets(iname);
-    fi = fopen(iname , "r");
-    printf("\n");
+    char c;
+    fi = fopen("input.txt" , "r");
     
-    printf("Write name of output file: ");
-    gets(oname);
-    fo = fopen(oname , "w");
-    printf("\n");
-
-    fgets(str,256,fi);
-    fputs(str,fo);
-
-    printf("Completed!\n");
+    fo = fopen("output.txt" , "w");
+    
+    c = fgetc(fi);
+    while(c!=EOF){
+        fputc(c,fo);
+        c = fgetc(fi);
+    }
 
     return 0;
 }
