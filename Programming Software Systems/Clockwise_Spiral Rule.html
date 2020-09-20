@@ -1,0 +1,236 @@
+
+<!-- saved from url=(0042)http://c-faq.com/decl/spiral.anderson.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Clockwise/Spiral Rule</title>
+<style>._3emE9--dark-theme .-S-tR--ff-downloader{background:rgba(30,30,30,.93);border:1px solid rgba(82,82,82,.54);box-shadow:0 4px 7px rgba(30,30,30,.55);color:#fff}._3emE9--dark-theme .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn{background:#3d4b52}._3emE9--dark-theme .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn:hover{background:#131415}._3emE9--dark-theme .-S-tR--ff-downloader ._10vpG--footer{background:rgba(30,30,30,.93)}._2mDEx--white-theme .-S-tR--ff-downloader{background:#fff;border:1px solid rgba(82,82,82,.54);box-shadow:0 4px 7px rgba(30,30,30,.55);color:#314c75}._2mDEx--white-theme .-S-tR--ff-downloader ._6_Mtt--header{font-weight:700}._2mDEx--white-theme .-S-tR--ff-downloader ._2dFLA--container ._2bWNS--notice{border:0;color:rgba(0,0,0,.88)}._2mDEx--white-theme .-S-tR--ff-downloader ._10vpG--footer{background:#fff}.-S-tR--ff-downloader{display:block;overflow:hidden;position:fixed;bottom:20px;right:7.1%;width:330px;height:180px;background:rgba(30,30,30,.93);border-radius:2px;color:#fff;z-index:99999999;border:1px solid rgba(82,82,82,.54);box-shadow:0 4px 7px rgba(30,30,30,.55);transition:.5s}.-S-tR--ff-downloader._3M7UQ--minimize{height:62px}.-S-tR--ff-downloader._3M7UQ--minimize .nxuu4--file-info,.-S-tR--ff-downloader._3M7UQ--minimize ._6_Mtt--header{display:none}.-S-tR--ff-downloader ._6_Mtt--header{padding:10px;font-size:17px;font-family:sans-serif}.-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn{float:right;background:#f1ecec;height:20px;width:20px;text-align:center;padding:2px;margin-top:-10px;cursor:pointer}.-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn:hover{background:#e2dede}.-S-tR--ff-downloader ._13XQ2--error{color:red;padding:10px;font-size:12px;line-height:19px}.-S-tR--ff-downloader ._2dFLA--container{position:relative;height:100%}.-S-tR--ff-downloader ._2dFLA--container .nxuu4--file-info{padding:6px 15px 0;font-family:sans-serif}.-S-tR--ff-downloader ._2dFLA--container .nxuu4--file-info div{margin-bottom:5px;width:100%;overflow:hidden}.-S-tR--ff-downloader ._2dFLA--container ._2bWNS--notice{margin-top:21px;font-size:11px}.-S-tR--ff-downloader ._10vpG--footer{width:100%;bottom:0;position:absolute;font-weight:700}.-S-tR--ff-downloader ._10vpG--footer ._2V73d--loader{animation:n0BD1--rotation 3.5s linear forwards;position:absolute;top:-120px;left:calc(50% - 35px);border-radius:50%;border:5px solid #fff;border-top-color:#a29bfe;height:70px;width:70px;display:flex;justify-content:center;align-items:center}.-S-tR--ff-downloader ._10vpG--footer ._24wjw--loading-bar{width:100%;height:18px;background:#dfe6e9;border-radius:5px}.-S-tR--ff-downloader ._10vpG--footer ._24wjw--loading-bar ._1FVu9--progress-bar{height:100%;background:#8bc34a;border-radius:5px}.-S-tR--ff-downloader ._10vpG--footer ._2KztS--status{margin-top:10px}.-S-tR--ff-downloader ._10vpG--footer ._2KztS--status ._1XilH--state{float:left;font-size:.9em;letter-spacing:1pt;text-transform:uppercase;width:100px;height:20px;position:relative}.-S-tR--ff-downloader ._10vpG--footer ._2KztS--status ._1jiaj--percentage{float:right}</style></head>
+<body>
+[This was posted to comp.lang.c by its author,
+David Anderson, on 1994-05-06.]
+<!-- Message-ID: &lt;17188@anderson&gt; -->
+<h1>The ``Clockwise/Spiral Rule''</h1>
+<h2>By David Anderson</h2>
+<p>
+There is a technique known as the ``Clockwise/Spiral Rule'' which enables
+any C programmer to parse in their head any C declaration!
+</p><p>
+There are three simple steps to follow:
+</p><ol>
+<li>
+Starting with the unknown element, move in a spiral/clockwise direction;
+when ecountering the following elements replace them with the corresponding
+english statements:
+<p>
+</p><dl>
+<dt>
+[X] or []
+</dt><dd>
+=&gt; Array X size of... or Array undefined size of...
+</dd>
+<dt>
+(type1, type2)
+</dt><dd>
+=&gt; function passing type1 and type2 returning...
+</dd>
+<dt>
+*
+</dt><dd>
+=&gt; pointer(s) to...
+</dd></dl>
+<p>
+</p></li><li>
+Keep doing this in a spiral/clockwise direction until all tokens have been
+covered.
+<p>
+</p></li><li>
+Always resolve anything in parenthesis first!
+</li></ol>
+<h3>Example #1: Simple declaration</h3>
+<pre>                     +-------+
+                     | +-+   |
+                     | ^ |   |
+                char *str[10];
+                 ^   ^   |   |
+                 |   +---+   |
+                 +-----------+
+</pre>
+Question we ask ourselves: What is str?
+<blockquote>
+``str is an...
+</blockquote>
+<ul>
+<li>
+We move in a spiral clockwise direction starting with `str' and the first
+character we see is a `[' so, that means we have an array, so...
+<blockquote>
+``str is an array 10 of...
+</blockquote>
+</li><li>
+Continue in a spiral clockwise direction, and the next thing we encounter is
+the `*' so, that means we have pointers, so...
+<blockquote>
+``str is an array 10 of pointers to...
+</blockquote>
+</li><li>
+Continue in a spiral direction and we see the end of the line (the `;'), so
+keep going and we get to the type `char', so...
+<blockquote>
+``str is an array 10 of pointers to char''
+</blockquote>
+</li><li>
+We have now ``visited'' every token; therefore we are done!
+</li></ul>
+<h3>Example #2: Pointer to Function declaration</h3>
+<pre>                     +--------------------+
+                     | +---+              |
+                     | |+-+|              |
+                     | |^ ||              |
+                char *(*fp)( int, float *);
+                 ^   ^ ^  ||              |
+                 |   | +--+|              |
+                 |   +-----+              |
+                 +------------------------+
+</pre>
+Question we ask ourselves: What is fp?
+<blockquote>
+``fp is a...
+</blockquote>
+<ul>
+<li>
+Moving in a spiral clockwise direction, the first thing we see is a `)';
+therefore, fp is inside parenthesis, so we continue the spiral inside the
+parenthesis and the next character seen is the `*', so...
+<blockquote>
+``fp is a pointer to...
+</blockquote>
+</li><li>
+We are now out of the parenthesis and continuing in a spiral clockwise
+direction, we see the `('; therefore, we have a function, so...
+<blockquote>
+``fp is a pointer to a function passing an int and a pointer to float
+returning...
+</blockquote>
+</li><li>
+Continuing in a spiral fashion, we then see the `*' character, so...
+<blockquote>
+``fp is a pointer to a function passing an int and a pointer to float
+returning a pointer to...
+</blockquote>
+</li><li>
+Continuing in a spiral fashion we see the `;', but we haven't visited all
+tokens, so we continue and finally get to the type `char', so...
+<blockquote>
+``fp is a pointer to a function passing an int and a pointer to float
+returning a pointer to a char''
+</blockquote>
+</li></ul>
+<h3>Example #3: The ``Ultimate''</h3>
+<pre>                      +-----------------------------+
+                      |                  +---+      |
+                      |  +---+           |+-+|      |
+                      |  ^   |           |^ ||      |
+                void (*signal(int, void (*fp)(int)))(int);
+                 ^    ^      |      ^    ^  ||      |
+                 |    +------+      |    +--+|      |
+                 |                  +--------+      |
+                 +----------------------------------+
+</pre>
+<p>
+Question we ask ourselves: What is `signal'?
+</p><p>
+Notice that signal is <em>inside</em> parenthesis, so we must resolve this first!
+</p><ul>
+<li>
+Moving in a <em>clockwise</em> direction we see `(' so we have...
+<blockquote>
+``signal is a function passing an int and a...
+</blockquote>
+</li><li>
+Hmmm, we can use this same rule on `fp', so... What is fp? fp is also inside
+parenthesis so continuing we see an `*', so...
+<blockquote>
+fp is a pointer to...
+</blockquote>
+</li><li>
+Continue in a spiral clockwise direction and we get to `(', so...
+<blockquote>
+``fp is a pointer to a function passing int returning...''
+</blockquote>
+</li><li>
+Now we continue out of the function parenthesis and we see void, so...
+<blockquote>
+``fp is a pointer to a function passing int returning nothing (void)''
+</blockquote>
+</li><li>
+We have finished with fp so let's catch up with `signal', we now have...
+<blockquote>
+``signal is a function passing an int and a pointer to a function passing an
+int returning nothing (void) returning...
+</blockquote>
+</li><li>
+We are still inside parenthesis so the next character seen is a `*', so...
+<blockquote>
+``signal is a function passing an int and a pointer to a function passing an
+int returning nothing (void) returning a pointer to...
+</blockquote>
+</li><li>
+We have now resolved the items within parenthesis, so continuing clockwise,
+we then see another `(', so...
+<blockquote>
+``signal is a function passing an int and a pointer to a function passing an
+int returning nothing (void) returning a pointer to a function passing an
+int returning...
+</blockquote>
+</li><li>
+<em>Finally</em> we continue and the only thing left is the word `void', so the
+final complete definition for signal is:
+<blockquote>
+``signal is a function passing an int and a pointer to a function passing an
+int returning nothing (void) returning a pointer to a function passing an
+int returning nothing (void)''
+</blockquote>
+</li></ul>
+<p>
+The same rule is applied for const and volatile. For Example:
+</p><pre>	const char *chptr;
+</pre>
+<ul>
+<li>
+Now, what is chptr??
+<blockquote>
+``chptr is a pointer to a char constant''
+</blockquote>
+</li></ul>
+<p>
+How about this one:
+</p><pre>	char * const chptr;
+</pre>
+<ul>
+<li>
+Now, what is chptr??
+<blockquote>
+``chptr is a constant pointer to char''
+</blockquote>
+</li></ul>
+<p>
+Finally:
+</p><pre>	volatile char * const chptr;
+</pre>
+<ul>
+<li>
+Now, what is chptr??
+<blockquote>
+``chptr is a constant pointer to a char volatile.''
+</blockquote>
+</li></ul>
+<p>
+Practice this rule with the examples found in K&amp;R II on page 122.
+</p><p>
+</p><hr>
+Copyright © 1993,1994 David Anderson
+<p>
+This article may be freely distributed as long as the author's name and
+this notice are retained.
+</p><hr>
+
+
+</body></html>
