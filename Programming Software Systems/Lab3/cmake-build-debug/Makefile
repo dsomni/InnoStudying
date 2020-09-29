@@ -169,33 +169,6 @@ test.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/test.c.s
 .PHONY : test.c.s
 
-test2.obj: test2.c.obj
-
-.PHONY : test2.obj
-
-# target to build an object file
-test2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/test2.c.obj
-.PHONY : test2.c.obj
-
-test2.i: test2.c.i
-
-.PHONY : test2.i
-
-# target to preprocess a source file
-test2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/test2.c.i
-.PHONY : test2.c.i
-
-test2.s: test2.c.s
-
-.PHONY : test2.s
-
-# target to generate assembly for a file
-test2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/test2.c.s
-.PHONY : test2.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -208,9 +181,6 @@ help:
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s
-	@echo ... test2.obj
-	@echo ... test2.i
-	@echo ... test2.s
 .PHONY : help
 
 

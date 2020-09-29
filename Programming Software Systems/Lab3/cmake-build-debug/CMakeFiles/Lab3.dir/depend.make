@@ -3,5 +3,3 @@
 
 CMakeFiles/Lab3.dir/test.c.obj: ../test.c
 
-CMakeFiles/Lab3.dir/test2.c.obj: ../test2.c
-

@@ -1,0 +1,14 @@
+module ex2(i1,i2,b0,a,b,c,d,e,f);
+	input i1,i2;
+	output b0,a,b,c,d,e,f;
+	
+	assign b0 = i1;
+	assign a = i1;
+	assign b = i1;
+	assign c = i1;
+	assign d = i1;
+	assign e = i1;
+	assign f = i1;
+endmodule
+	
+	

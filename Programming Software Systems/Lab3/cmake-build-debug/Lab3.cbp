@@ -79,9 +79,6 @@
 		<Unit filename="D:/InnoStudying/Programming Software Systems/Lab3/test.c">
 			<Option target="Lab3"/>
 		</Unit>
-		<Unit filename="D:/InnoStudying/Programming Software Systems/Lab3/test2.c">
-			<Option target="Lab3"/>
-		</Unit>
 		<Unit filename="D:/InnoStudying/Programming Software Systems/Lab3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Lab3.dir/test.c.obj"
-  "CMakeFiles/Lab3.dir/test2.c.obj"
   "Lab3.exe"
   "Lab3.exe.manifest"
   "Lab3.pdb"

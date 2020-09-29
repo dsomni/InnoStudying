@@ -1,0 +1,5 @@
+module ex3(i1);
+	input i1;
+	output ;
+	
+endmodule
