@@ -1,0 +1,66 @@
+$date
+	Thu Oct 01 15:50:22 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module testbench $end
+$var reg 1 ! s $end
+$var reg 1 " r $end
+$var wire 1 # q $end
+$var wire 1 $ q_n $end
+
+$scope module sr_latch $end
+$var wire 1 % s $end
+$var wire 1 & r $end
+$var wire 1 # q $end
+$var wire 1 $ q_n $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x!
+x"
+x#
+x$
+x&
+x%
+$end
+#10
+0!
+0"
+0%
+0&
+#20
+1!
+1%
+0$
+1#
+#30
+0!
+0%
+#40
+1"
+1&
+0#
+1$
+#50
+0"
+0&
+#60
+1!
+1"
+1%
+1&
+0$
+#70
+0!
+0"
+0%
+0&
+1#

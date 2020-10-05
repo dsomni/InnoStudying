@@ -1,0 +1,10 @@
+Cake
+Milk ml 300
+Egg pcs 3
+Flour gr 200
+Salt gr 1
+
+Cappuccino
+Coffee gr 10
+Milk ml 100
+Sugar gr 20
