@@ -1,2 +1,2 @@
-Encrypted message: 18446744073709551615
-Decrypted message: 18446744073709551615
+Encrypted message: 52996
+Decrypted message: 1231
