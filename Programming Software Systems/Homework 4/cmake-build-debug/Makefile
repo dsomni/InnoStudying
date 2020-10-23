@@ -142,33 +142,6 @@ Homework_4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_4.dir\build.make CMakeFiles/Homework_4.dir/build
 .PHONY : Homework_4/fast
 
-union.obj: union.c.obj
-
-.PHONY : union.obj
-
-# target to build an object file
-union.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_4.dir\build.make CMakeFiles/Homework_4.dir/union.c.obj
-.PHONY : union.c.obj
-
-union.i: union.c.i
-
-.PHONY : union.i
-
-# target to preprocess a source file
-union.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_4.dir\build.make CMakeFiles/Homework_4.dir/union.c.i
-.PHONY : union.c.i
-
-union.s: union.c.s
-
-.PHONY : union.s
-
-# target to generate assembly for a file
-union.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_4.dir\build.make CMakeFiles/Homework_4.dir/union.c.s
-.PHONY : union.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -178,9 +151,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Homework_4
-	@echo ... union.obj
-	@echo ... union.i
-	@echo ... union.s
 .PHONY : help
 
 

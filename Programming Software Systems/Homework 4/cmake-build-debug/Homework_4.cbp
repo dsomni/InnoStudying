@@ -76,7 +76,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/InnoStudying/Programming Software Systems/Homework 4/union.c">
+		<Unit filename="D:/InnoStudying/Programming Software Systems/Homework 4/test.cpp">
 			<Option target="Homework_4"/>
 		</Unit>
 		<Unit filename="D:/InnoStudying/Programming Software Systems/Homework 4/CMakeLists.txt">

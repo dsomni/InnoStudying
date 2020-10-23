@@ -1,4 +1,21 @@
 D:\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\InnoStudying\Programming Software Systems\Homework 4"
--- Configuring done
--- Generating done
--- Build files have been written to: D:/InnoStudying/Programming Software Systems/Homework 4/cmake-build-debug
+CMake Error: Could not find cmake module file: CMakeDetermineCppCompiler.cmake
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_Cpp_COMPILER_ENV_VAR
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_Cpp_COMPILER
+CMake Error: Could not find cmake module file: D:/InnoStudying/Programming Software Systems/Homework 4/cmake-build-debug/CMakeFiles/3.17.3/CMakeCppCompiler.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_Cpp_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_Cpp_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakeCppInformation.cmake
+CMake Error: CMAKE_Cpp_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
+See also "D:/InnoStudying/Programming Software Systems/Homework 4/cmake-build-debug/CMakeFiles/CMakeOutput.log".

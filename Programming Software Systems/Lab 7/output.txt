@@ -1,0 +1,7 @@
+Move plate 1 from box 1 to box 3
+Move plate 2 from box 1 to box 2
+Move plate 1 from box 3 to box 2
+Move plate 3 from box 1 to box 3
+Move plate 1 from box 2 to box 1
+Move plate 2 from box 2 to box 3
+Move plate 1 from box 1 to box 3
