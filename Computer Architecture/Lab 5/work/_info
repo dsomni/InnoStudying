@@ -9,233 +9,233 @@ z2
 cModel Technology
 dD:/intelFPGA_lite/18.1
 vb1_mux_2_1_case
-Z0 !s110 1601556529
+!s110 1604575997
 !i10b 1
 !s100 ;WL:W6aVHPV`4Ji9feIMl3
 IH_G1RX0DzGn7IQA6FXc5l1
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dD:/InnoStudying/Computer Architecture/Lab 5
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/InnoStudying/Computer Architecture/Lab 5
 w1601552786
 8D:/InnoStudying/Computer Architecture/Lab 5/b1_mux_2_1_case.v
 FD:/InnoStudying/Computer Architecture/Lab 5/b1_mux_2_1_case.v
 L0 2
-Z3 OV;L;10.5b;63
+Z2 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1601556529.000000
+!s108 1604575996.000000
 !s107 D:/InnoStudying/Computer Architecture/Lab 5/b1_mux_2_1_case.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 5/b1_mux_2_1_case.v|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+Z3 o-work work
+Z4 tCvgOpt 0
 vb1_mux_2_1_if
-R0
+!s110 1604575996
 !i10b 1
 !s100 a4XGRU8Y^I_nW71e:[:2`1
 Id^_0cAEM:eJkWPjceFKOV2
+R0
 R1
-R2
 w1601552775
 8D:/InnoStudying/Computer Architecture/Lab 5/b1_mux_2_1_if.v
 FD:/InnoStudying/Computer Architecture/Lab 5/b1_mux_2_1_if.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-R4
+!s108 1604575994.000000
 !s107 D:/InnoStudying/Computer Architecture/Lab 5/b1_mux_2_1_if.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 5/b1_mux_2_1_if.v|
 !i113 1
-R5
-R6
+R3
+R4
 vb1_mux_4_1_case
 !s110 1601554817
 !i10b 1
 !s100 ^^A]LnfLZFG>3UVe;<@E^0
 I;7bhZ4F72W;OS4n1eN7Qc1
+R0
 R1
-R2
 w1601554574
-Z7 8D:/InnoStudying/Computer Architecture/Lab 5/mux_4_1_case.v
-Z8 FD:/InnoStudying/Computer Architecture/Lab 5/mux_4_1_case.v
+Z5 8D:/InnoStudying/Computer Architecture/Lab 5/mux_4_1_case.v
+Z6 FD:/InnoStudying/Computer Architecture/Lab 5/mux_4_1_case.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
 !s108 1601554817.000000
-Z9 !s107 D:/InnoStudying/Computer Architecture/Lab 5/mux_4_1_case.v|
-Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 5/mux_4_1_case.v|
+Z7 !s107 D:/InnoStudying/Computer Architecture/Lab 5/mux_4_1_case.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 5/mux_4_1_case.v|
 !i113 1
-R5
-R6
+R3
+R4
 vd_flip_flop
-Z11 !s110 1601556530
+!s110 1604576006
 !i10b 1
 !s100 Y[V`e`ZP8c@T?I3HLMU?40
 IkRm_GC=A;1ZlOOoBAJ7833
+R0
 R1
-R2
 w1601556491
 8D:/InnoStudying/Computer Architecture/Lab 5/d_flip_flop.v
 FD:/InnoStudying/Computer Architecture/Lab 5/d_flip_flop.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-Z12 !s108 1601556530.000000
+!s108 1604576005.000000
 !s107 D:/InnoStudying/Computer Architecture/Lab 5/d_flip_flop.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 5/d_flip_flop.v|
 !i113 1
-R5
-R6
+R3
+R4
 vd_latch
-R11
+!s110 1604576004
 !i10b 1
 !s100 Qe0W1YULXiGBGg`aT4a_b0
 Ik3GX<A7OVWbfQXco502]c1
+R0
 R1
-R2
 w1601556527
 8D:/InnoStudying/Computer Architecture/Lab 5/d_latch.v
 FD:/InnoStudying/Computer Architecture/Lab 5/d_latch.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-R12
+!s108 1604576003.000000
 !s107 D:/InnoStudying/Computer Architecture/Lab 5/d_latch.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 5/d_latch.v|
 !i113 1
-R5
-R6
+R3
+R4
 vmux_2_1
-R0
+!s110 1604575993
 !i10b 1
 !s100 :0EL0;g66VoW:SCEN8LQ_2
-IH622LH8`JeCi@]O>aAGdA3
+IZ?VDI07_]@MgahAlKiO0D2
+R0
 R1
-R2
 w1601552614
-8D:\InnoStudying\Computer Architecture\Lab 5\mux_2_1.v
-FD:\InnoStudying\Computer Architecture\Lab 5\mux_2_1.v
+8D:/InnoStudying/Computer Architecture/Lab 5/mux_2_1.v
+FD:/InnoStudying/Computer Architecture/Lab 5/mux_2_1.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-R4
-!s107 D:\InnoStudying\Computer Architecture\Lab 5\mux_2_1.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\InnoStudying\Computer Architecture\Lab 5\mux_2_1.v|
+!s108 1604575990.000000
+!s107 D:/InnoStudying/Computer Architecture/Lab 5/mux_2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 5/mux_2_1.v|
 !i113 1
-R5
-R6
+R3
+R4
 vmux_2_1_ternary
-R0
+!s110 1604575994
 !i10b 1
 !s100 ^HLg[4CF5eMZoKM^NZk3N0
-IaKA^aQLJDDNfe3LOY]Q212
+Iagm7M9C<HS6;FZQ[:9=a]0
+R0
 R1
-R2
 w1601552759
-8D:\InnoStudying\Computer Architecture\Lab 5\mux_2_1_ternary.v
-FD:\InnoStudying\Computer Architecture\Lab 5\mux_2_1_ternary.v
+8D:/InnoStudying/Computer Architecture/Lab 5/mux_2_1_ternary.v
+FD:/InnoStudying/Computer Architecture/Lab 5/mux_2_1_ternary.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-R4
-!s107 D:\InnoStudying\Computer Architecture\Lab 5\mux_2_1_ternary.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\InnoStudying\Computer Architecture\Lab 5\mux_2_1_ternary.v|
+!s108 1604575993.000000
+!s107 D:/InnoStudying/Computer Architecture/Lab 5/mux_2_1_ternary.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 5/mux_2_1_ternary.v|
 !i113 1
-R5
-R6
+R3
+R4
 vmux_4_1_case
-R11
+!s110 1604576000
 !i10b 1
 !s100 h]8UmeZ8J[eRC9:2]lGH63
 I[iQ;Y458gRigPjih090Qc2
+R0
 R1
-R2
 w1601555899
-R7
-R8
+R5
+R6
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R12
-R9
-R10
+!s108 1604575999.000000
+R7
+R8
 !i113 1
-R5
-R6
+R3
+R4
 vsr_latch
-R11
+!s110 1604576003
 !i10b 1
 !s100 [<ih4izkGzPBhfB_2jKgQ0
 IjZHZLJI=^LXQPSWhQ1[5>3
+R0
 R1
-R2
 w1601556298
 8D:/InnoStudying/Computer Architecture/Lab 5/sr_latch.v
 FD:/InnoStudying/Computer Architecture/Lab 5/sr_latch.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-R12
+!s108 1604576002.000000
 !s107 D:/InnoStudying/Computer Architecture/Lab 5/sr_latch.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 5/sr_latch.v|
 !i113 1
-R5
-R6
+R3
+R4
 vtestbench
-R11
+!s110 1604575999
 !i10b 1
 !s100 1`cGjNAA_cRb<LnT58@4h2
-IA2_DNCi=MSlHkX_SIXhF:1
+Ih@N;::MaSiSbRYHBnHCE41
+R0
 R1
-R2
 w1601556461
-8D:\InnoStudying\Computer Architecture\Lab 5\testbench.v
-FD:\InnoStudying\Computer Architecture\Lab 5\testbench.v
+8D:/InnoStudying/Computer Architecture/Lab 5/testbench.v
+FD:/InnoStudying/Computer Architecture/Lab 5/testbench.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R4
-!s107 D:\InnoStudying\Computer Architecture\Lab 5\testbench.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\InnoStudying\Computer Architecture\Lab 5\testbench.v|
+!s108 1604575997.000000
+!s107 D:/InnoStudying/Computer Architecture/Lab 5/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 5/testbench.v|
 !i113 1
-R5
-R6
+R3
+R4
 vtestbench2
-R11
+!s110 1604576001
 !i10b 1
 !s100 aKXYgoaEmcmI[OoMRU<nH3
 In0h@7@3=^z105K>>>l1Q33
+R0
 R1
-R2
 w1601556101
 8D:/InnoStudying/Computer Architecture/Lab 5/testbench2.v
 FD:/InnoStudying/Computer Architecture/Lab 5/testbench2.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R12
+!s108 1604576000.000000
 !s107 D:/InnoStudying/Computer Architecture/Lab 5/testbench2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 5/testbench2.v|
 !i113 1
-R5
-R6
+R3
+R4

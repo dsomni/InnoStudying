@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/InnoStudying/Computer Architecture/Lab 5
+vfull_adder
+!s110 1604578063
+!i10b 1
+!s100 jQM50d3Zl1QQ3J=;KPc071
+ISBC;_7YHBUF892DJ9[b1F0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/InnoStudying/Computer Architecture/Lab 10
+w1604576615
+8D:\InnoStudying\Computer Architecture\Lab 10\full_adder.v
+FD:\InnoStudying\Computer Architecture\Lab 10\full_adder.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1604578062.000000
+!s107 D:\InnoStudying\Computer Architecture\Lab 10\full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\InnoStudying\Computer Architecture\Lab 10\full_adder.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vfull_adder_testbench
+!s110 1604578057
+!i10b 1
+!s100 0;8HVe<NbEH1Sci;g2c:z2
+I@cjU9_Cd]U1g3hF@Qg2kY2
+R0
+R1
+w1539873836
+8D:\InnoStudying\Computer Architecture\Lab 10\full_adder_testbench.v
+FD:\InnoStudying\Computer Architecture\Lab 10\full_adder_testbench.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1604578056.000000
+!s107 D:\InnoStudying\Computer Architecture\Lab 10\full_adder_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\InnoStudying\Computer Architecture\Lab 10\full_adder_testbench.v|
+!i113 1
+R3
+R4
+vhalf_adder
+!s110 1604578058
+!i10b 1
+!s100 eAG0:WgE1a9ioMl@dVX<K3
+IjTND=ldb^Eb7B:HTiH[W13
+R0
+R1
+w1604576225
+8D:\InnoStudying\Computer Architecture\Lab 10\half_adder.v
+FD:\InnoStudying\Computer Architecture\Lab 10\half_adder.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1604578057.000000
+!s107 D:\InnoStudying\Computer Architecture\Lab 10\half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\InnoStudying\Computer Architecture\Lab 10\half_adder.v|
+!i113 1
+R3
+R4
+vhalf_adder_testbench
+!s110 1604578060
+!i10b 1
+!s100 oIO^<R^5:0bNTJ9k0E1aZ0
+IV:jhPFzWIBQ1edNT5j^FI0
+R0
+R1
+Z5 w1539860960
+8D:/InnoStudying/Computer Architecture/Lab 10/half_adder_testbench.v
+FD:/InnoStudying/Computer Architecture/Lab 10/half_adder_testbench.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1604578059.000000
+!s107 D:/InnoStudying/Computer Architecture/Lab 10/half_adder_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 10/half_adder_testbench.v|
+!i113 1
+R3
+R4
+vripple_adder
+!s110 1604577288
+!i10b 1
+!s100 WBb@XD1P:?<YML^XEbU0g0
+I12hPIU1NZEIGX69K?>d<21
+R0
+R1
+w1604577275
+Z6 8D:/InnoStudying/Computer Architecture/Lab 10/ripple_carry.v
+Z7 FD:/InnoStudying/Computer Architecture/Lab 10/ripple_carry.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1604577286.000000
+!s107 D:/InnoStudying/Computer Architecture/Lab 10/ripple_carry.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|D:/InnoStudying/Computer Architecture/Lab 10/ripple_carry.v|
+!i113 1
+R3
+R4
+vripple_carry
+!s110 1604578065
+!i10b 1
+!s100 ?@GPZ0MAOi8JcYOAgBd042
+IDUI1kBadllj2UgzZ]3?c^1
+R0
+R1
+w1604578052
+R6
+R7
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1604578063.000000
+!s107 D:/InnoStudying/Computer Architecture/Lab 10/ripple_carry.v|
+R8
+!i113 1
+R3
+R4
+vripple_carry_testbench
+!s110 1604578061
+!i10b 1
+!s100 ]1AdeTHHgD^jmYRYHnbVE3
+IPRhEkb2;T2K7]eCb<dPVf3
+R0
+R1
+R5
+8D:\InnoStudying\Computer Architecture\Lab 10\ripple_carry_testbench.v
+FD:\InnoStudying\Computer Architecture\Lab 10\ripple_carry_testbench.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1604578060.000000
+!s107 D:\InnoStudying\Computer Architecture\Lab 10\ripple_carry_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\InnoStudying\Computer Architecture\Lab 10\ripple_carry_testbench.v|
+!i113 1
+R3
+R4

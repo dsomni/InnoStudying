@@ -1,0 +1,14 @@
+module full_adder
+(
+input x ,
+input y ,
+input cin,
+output reg s ,
+output reg cout
+);
+always @(*)
+begin
+assign s = x^y^cin;
+assign cout = x*y + (x^y)*cin;
+end
+endmodule
